@@ -8145,6 +8145,64 @@ body.page-ready > *:not(#zappy-page-loader) {
 }
 /* /Zappy custom logo size */
 
+
+.navbar .logo-link {
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important;
+  padding: 0 !important;
+  outline: none !important;
+  border-radius: 0 !important;
+}
+
+.navbar .logo {
+  border: none !important;
+  box-shadow: none !important;
+  background: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  outline: none !important;
+}
+
+.navbar .nav-menu li a {
+  position: relative;
+  border: 1.5px solid transparent;
+  border-radius: 8px;
+  padding: 6px 14px !important;
+  transition: border-color 0.25s ease, color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+.navbar .nav-menu li a:hover {
+  border-color: var(--secondary) !important;
+  color: var(--secondary) !important;
+  background-color: rgba(184, 106, 75, 0.06) !important;
+  box-shadow: 0 0 0 3px rgba(184, 106, 75, 0.12), inset 0 0 0 1px rgba(184, 106, 75, 0.15) !important;
+}
+
+.navbar .nav-menu li a::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  right: 14px;
+  left: 14px;
+  height: 2px;
+  background: var(--secondary);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.25s ease;
+}
+
+.navbar .nav-menu li a:hover::after {
+  content: '';
+  transform: scaleX(1);
+}
+
+.navbar .nav-menu li a[aria-current="page"],
+.navbar .nav-menu li.active a {
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+  background-color: rgba(110, 117, 98, 0.06) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
