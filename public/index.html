@@ -754,6 +754,18 @@
     repeating-linear-gradient(-45deg, rgba(201,138,99,0.04) 0px, rgba(201,138,99,0.04) 1px, transparent 1px, transparent 40px);
   pointer-events: none;
 }
+#am-splash-loader .am-splash-bg-logo {
+  position: absolute;
+  inset: 0;
+  background-image: url('assets/metal-recycling-scrap-logo-1778755830909-v3t7jt.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 55%;
+  opacity: 0.07;
+  filter: blur(1px) grayscale(20%);
+  pointer-events: none;
+  z-index: 1;
+}
 #am-splash-loader .am-splash-glow {
   position: absolute;
   width: 420px;
@@ -880,6 +892,7 @@
 </style>
 <div id="am-splash-loader" role="progressbar" aria-label="טוען...">
   <div class="am-splash-bg-pattern"></div>
+  <div class="am-splash-bg-logo"></div>
   <div class="am-splash-glow"></div>
   <div class="am-splash-logo-wrap">
     <img class="am-splash-logo" src="/assets/metal-recycling-scrap-service-1778756404384-m6lncr.webp" alt="א.מ פסולת מתכות">
