@@ -1851,15 +1851,15 @@ Description: צרו קשר עם א.מ פסולת מתכות בע"מ לקבלת �
 
 
 
+[business_phone]
 
 
 
+[business_email]
 
 
 
-
-
-
+[business_address]
 
 
 
