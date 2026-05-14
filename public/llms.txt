@@ -1,0 +1,80 @@
+# א.מ פסולת מתכות בע"מ — Generative Engine Optimization Map
+
+> A.M Metal Waste Ltd. is a professional metal scrap and recycling company. The brand operates in the industrial metals sector, likely dealing with collection, processing, and trading of scrap metals. The company presents itself as a formal, established business entity with a professional image.
+
+---
+
+## Pages
+
+### בית
+https://-57ab3aaa.zappy5.app
+A.M Metal Waste Ltd. is a professional metal scrap and recycling company. The brand operates in the industrial metals sector, likely dealing with collection, pr
+
+### שירותים
+https://-57ab3aaa.zappy5.app/services
+שירותים | א.מ פסולת מתכות בע&quot;מ. scrap and metal
+
+### אודות
+https://-57ab3aaa.zappy5.app/about
+אודות | א.מ פסולת מתכות בע&quot;מ. scrap and metal
+
+### צור קשר
+https://-57ab3aaa.zappy5.app/contact
+צור קשר | א.מ פסולת מתכות בע&quot;מ. scrap and metal
+
+## Legal & Policy
+
+### Privacy Policy
+https://-57ab3aaa.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-57ab3aaa.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-57ab3aaa.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-57ab3aaa.zappy5.app/contact
+- Endpoint: https://-57ab3aaa.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About א.מ פסולת מתכות בע"מ
+A.M Metal Waste Ltd. is a professional metal scrap and recycling company. The brand operates in the industrial metals sector, likely dealing with collection, processing, and trading of scrap metals. The company presents itself as a formal, established business entity with a professional image.
+
+## Target Audience
+- חברות בנייה
+- יצרנים תעשייתיים
+- רשויות מקומיות
+- ארגונים סביבתיים
+- עבודות ופרויקטים פרטיים
+
+## Industry
+Metal Recycling & Scrap
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-57ab3aaa.zappy5.app/sitemap.xml
+- Robots: https://-57ab3aaa.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-57ab3aaa.zappy5.app/llms-full.txt
