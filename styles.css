@@ -7429,13 +7429,12 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   justify-content: flex-start;
 }
 
-/* Content Block */
 .index-hero-section .index-hero-content {
   position: relative;
   max-width: 640px;
   padding-block: 0;
   padding-inline-end: 32px;
-  border-inline-end: none;
+  border-inline-end: 2px solid rgba(201, 138, 99, 0.45);
 }
 
 /* Vertical Glow Line */
