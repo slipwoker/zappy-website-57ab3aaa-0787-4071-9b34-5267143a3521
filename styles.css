@@ -2561,7 +2561,7 @@ hr.section-flourish, .section-flourish, [data-section-divider] {
   height: 2px;
   margin: 1.25rem auto;
   border: 0;
-  background: linear-gradient(90deg, transparent, var(--accent, var(--primary, #C1794C)) 30%, var(--accent, var(--primary, #C1794C)) 70%, transparent);
+  background: linear-gradient(90deg, transparent, var(--accent, var(--primary, #BB7052)) 30%, var(--accent, var(--primary, #BB7052)) 70%, transparent);
   border-radius: 999px;
   opacity: 0.85;
 }
@@ -7875,7 +7875,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   display: inline-block;
   align-self: flex-start;
   background: rgba(196, 82, 42, 0.15);
-  color: #aa653b;
+  color: #ab6143;
   border: 1px solid rgba(196, 82, 42, 0.3);
   font-size: 0.72rem;
   font-weight: 600;
@@ -7888,7 +7888,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 .gallery-materials__card:hover .gallery-materials__card-tag {
   background: rgba(196, 82, 42, 0.28);
-  color: #aa653b;
+  color: #ab6143;
 }
 
 /* ---- CTA Wrap ---- */
@@ -8132,6 +8132,8 @@ body.page-ready > *:not(#zappy-page-loader) {
   background: rgba(46, 42, 38, 0.28);
   border-color: rgba(201, 138, 99, 0.30);
 }
+
+
 /* === BUTTON TEXT OVERRIDES START === */
 .btn-accent,
 .btn--accent,
