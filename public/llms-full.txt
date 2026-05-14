@@ -2,13 +2,13 @@
 
 A.M Metal Waste Ltd. is a professional metal scrap and recycling company. The brand operates in the industrial metals sector, likely dealing with collection, processing, and trading of scrap metals. The company presents itself as a formal, established business entity with a professional image.
 
-Source: https://-57ab3aaa.zappy5.app
+Source: https://example.com
 
 ---
 
 ## scrap and metal — א.מ פסולת מתכות בע&quot;מ
 
-URL: https://-57ab3aaa.zappy5.app
+URL: https://example.com
 Description: A.M Metal Waste Ltd. is a professional metal scrap and recycling company. The brand operates in the industrial metals sector, likely dealing with collection, pr
 
 scrap and metal — א.מ פסולת מתכות בע"מ
@@ -408,7 +408,7 @@ scrap and metal — א.מ פסולת מתכות בע"מ
 
 ## שירותים — א.מ פסולת מתכות בע&quot;מ
 
-URL: https://-57ab3aaa.zappy5.app/services
+URL: https://example.com/services
 Description: שירותים | א.מ פסולת מתכות בע&quot;מ. scrap and metal
 
 שירותים — א.מ פסולת מתכות בע"מ
@@ -975,7 +975,7 @@ Description: שירותים | א.מ פסולת מתכות בע&quot;מ. scrap an
 
 ## אודות — א.מ פסולת מתכות בע&quot;מ
 
-URL: https://-57ab3aaa.zappy5.app/about
+URL: https://example.com/about
 Description: אודות | א.מ פסולת מתכות בע&quot;מ. scrap and metal
 
 אודות — א.מ פסולת מתכות בע"מ
@@ -1455,7 +1455,7 @@ Description: אודות | א.מ פסולת מתכות בע&quot;מ. scrap and me
 
 ## צור קשר — א.מ פסולת מתכות בע&quot;מ
 
-URL: https://-57ab3aaa.zappy5.app/contact
+URL: https://example.com/contact
 Description: צור קשר | א.מ פסולת מתכות בע&quot;מ. scrap and metal
 
 צור קשר — א.מ פסולת מתכות בע"מ
@@ -1829,7 +1829,7 @@ Description: צור קשר | א.מ פסולת מתכות בע&quot;מ. scrap and
 
 ## מדיניות פרטיות
 
-URL: https://-57ab3aaa.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -2086,7 +2086,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://-57ab3aaa.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -2352,7 +2352,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://-57ab3aaa.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
