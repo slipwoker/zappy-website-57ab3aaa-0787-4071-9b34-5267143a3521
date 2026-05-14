@@ -252,6 +252,317 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  background-color: #2E2A26;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+  direction: rtl;
+}
+
+/* Background image layer */
+.index-hero-section .index-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Scrim overlay */
+.index-hero-section .index-hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(135deg, rgba(30, 20, 10, 0.82) 0%, rgba(30, 20, 10, 0.55) 55%, rgba(30, 20, 10, 0.25) 100%),
+    linear-gradient(180deg, rgba(30, 20, 10, 0.35) 0%, rgba(30, 20, 10, 0.70) 100%);
+}
+
+/* Decorative geometric motif */
+.index-hero-section .index-hero-geo-motif {
+  position: absolute;
+  top: 8%;
+  inset-inline-start: 4%;
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 1;
+}
+
+/* Main container */
+.index-hero-section .index-hero-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Content card — positioned right (RTL: start side) */
+.index-hero-section .index-hero-content {
+  max-width: 620px;
+  width: 100%;
+  padding: 56px 48px 52px 40px;
+  background: rgba(30, 20, 10, 0.45);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 16px;
+  border: 1px solid rgba(248, 244, 236, 0.10);
+  box-shadow: 0 16px 56px rgba(44, 30, 15, 0.32);
+  text-align: right;
+}
+
+/* Eyebrow label */
+.index-hero-section .index-hero-eyebrow {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: heroEyebrowFadeIn 0.6s ease forwards 0.3s;
+}
+
+.index-hero-section .index-hero-eyebrow-text {
+  font-family: 'Assistant', 'Noto Sans Hebrew', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--accent);
+  line-height: 1.4;
+}
+
+/* Shimmer line below eyebrow */
+.index-hero-section .index-hero-shimmer-line {
+  margin-top: 6px;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, transparent 0%, #C98A63 40%, #B86A4B 60%, transparent 100%);
+  background-size: 200% 100%;
+  animation: heroShimmerSlide 2.4s ease-in-out infinite 0.9s;
+}
+
+/* H1 Headline */
+.index-hero-section .index-hero-h1 {font-family: 'Assistant', 'Noto Sans Hebrew', sans-serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--text-light);
+  margin: 0 0 20px 0;
+  opacity: 0;
+  transform: translateY(24px);
+  animation: heroH1SlideUp 0.65s cubic-bezier(0.4, 0, 0.2, 1) forwards 0.5s;}
+
+/* Subtitle */
+.index-hero-section .index-hero-subtitle {
+  font-family: 'Heebo', 'Noto Sans Hebrew', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(248, 244, 236, 0.88);
+  margin: 0 0 36px 0;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.45);
+  opacity: 0;
+  animation: heroSubtitleFadeIn 0.6s ease forwards 0.7s;
+}
+
+/* CTA group */
+.index-hero-section .index-hero-cta-group {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  transform: scale(0.96);
+  animation: heroBtnsScaleIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards 0.9s;
+}
+
+/* Primary CTA button */
+.index-hero-section .index-hero-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 30px;
+  background: #B86A4B;
+  color: #F8F4EC;
+  font-family: 'Assistant', 'Noto Sans Hebrew', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(184, 106, 75, 0.38);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.01em;
+}
+
+.index-hero-section .index-hero-btn-primary:hover {
+  background: #C98A63;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(184, 106, 75, 0.50);
+  color: #F8F4EC;
+}
+
+/* Secondary CTA button */
+.index-hero-section .index-hero-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 28px;
+  background: transparent;
+  color: var(--text-light);
+  font-family: 'Assistant', 'Noto Sans Hebrew', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1.5px solid rgba(248, 244, 236, 0.55);
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.01em;
+}
+
+.index-hero-section .index-hero-btn-secondary:hover {
+  background: rgba(248, 244, 236, 0.12);
+  border-color: rgba(248, 244, 236, 0.85);
+  transform: translateY(-2px);
+  color: var(--text-light);
+}
+
+/* Bottom wave divider wrapper */
+.index-hero-section .index-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section .index-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── KEYFRAME ANIMATIONS ── */
+@keyframes heroEyebrowFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroShimmerSlide {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes heroH1SlideUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroSubtitleFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroBtnsScaleIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .index-hero-section .index-hero-content {
+    max-width: 100%;
+    padding: 44px 32px 40px;
+  }
+
+  .index-hero-section .index-hero-h1 {
+    font-size: 2.2rem;
+  }
+
+  .index-hero-section .index-hero-geo-motif {
+    width: 200px;
+    height: 200px;
+    top: 4%;
+    inset-inline-start: 2%;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 100svh;
+    padding-top: 100px;
+    align-items: flex-end;
+    padding-bottom: 80px;
+  }
+
+  .index-hero-section .index-hero-container {
+    padding: 0 16px;
+    justify-content: center;
+  }
+
+  .index-hero-section .index-hero-content {
+    max-width: 100%;
+    padding: 32px 20px 28px;
+    border-radius: 12px;
+  }
+
+  .index-hero-section .index-hero-h1 {
+    font-size: 1.85rem;
+    margin-bottom: 14px;
+  }
+
+  .index-hero-section .index-hero-subtitle {
+    font-size: 0.9375rem;
+    margin-bottom: 28px;
+  }
+
+  .index-hero-section .index-hero-cta-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .index-hero-section .index-hero-btn-primary,
+  .index-hero-section .index-hero-btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .index-hero-section .index-hero-geo-motif {
+    display: none;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:index-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: min(var(--display-xl, 6rem), 6rem) !important; line-height: var(--leading-display, 1.05); }
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: clamp(2rem, 9vw, 3rem) !important; }
+}
+
+/* ZAPPY_POSTGEN_GUARD_HERO_TYPO:בית-hero (index-hero) — stripped 1 jarring hero headline effect(s) */
+
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -812,37 +1123,46 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
-  <!-- Background Image Layer -->
-  <div class="index-hero-bg">
-    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Sunlit industrial scrap metal yard with organized piles of sorted metals — copper, steel, aluminum — warm golden afternoon light casting long shadows across the yard. Heavy machinery like a crane or loader visible in the background. Earthy tones of rust, bronze, and dusty ground. Wide cinematic composition with open sky, conveying scale and professionalism of a well-run metal recycling operation." width="1440" height="900" src="/assets/site-index-hero-image-1.webp" alt="מתחם פסולת מתכות של א.מ פסולת מתכות בע&quot;מ — חצר מסודרת עם ערמות מתכת ממוינות ומכונות תעשייתיות ברקע">
-  </div>
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" data-zappy-section="true">
+  <!-- Background Image -->
+  <div class="index-hero-bg" style="background-image: url('assets/site-index-hero-image-1.webp'); background-size: cover; background-position: center;"></div>
 
   <!-- Scrim Overlay -->
   <div class="index-hero-scrim" aria-hidden="true"></div>
 
-  <!-- Decorative Triangle Motif -->
-  <svg class="index-hero-triangle-motif" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="150,20 280,260 20,260" fill="var(--secondary)" opacity="0.08"></polygon>
+  <!-- Decorative geometric motif -->
+  <svg class="index-hero-geo-motif" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="150,20 280,260 20,260" stroke="#C4522A" stroke-width="2" fill="none" opacity="0.08"></polygon>
+    <polygon points="150,60 240,240 60,240" stroke="#C4522A" stroke-width="1" fill="none" opacity="0.05"></polygon>
   </svg>
 
-  <!-- Content Card -->
+  <!-- Content -->
   <div class="index-hero-container">
-    <div class="index-hero-card">
-      <span class="index-hero-eyebrow">א.מ פסולת מתכות בע"מ</span>
+    <div class="index-hero-content">
+      <!-- Eyebrow label -->
+      <div class="index-hero-eyebrow">
+        <span class="index-hero-eyebrow-text">א.מ פסולת מתכות בע"מ</span>
+        <div class="index-hero-shimmer-line" aria-hidden="true"></div>
+      </div>
+
+      <!-- Main Headline -->
       <h1 class="index-hero-h1">שותפים מקצועיים<br>למחזור מתכות ופסולת</h1>
+
+      <!-- Subtitle -->
       <h3 class="index-hero-subtitle">אנו מספקים שירותי איסוף, מיון ועיבוד אחראי של פסולת מתכות לפרויקטים תעשייתיים, עירוניים ופרטיים — עם ניסיון, אמינות וסטנדרטים סביבתיים גבוהים.</h3>
-      <div class="index-hero-ctas">
+
+      <!-- CTA Buttons -->
+      <div class="index-hero-cta-group">
         <a href="/contact" class="index-hero-btn-primary">צרו קשר</a>
         <a href="/services" class="index-hero-btn-secondary">השירותים שלנו</a>
       </div>
     </div>
   </div>
 
-  <!-- Bottom Divider -->
+  <!-- Bottom Wave Divider -->
   <div class="index-hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,48 Q60,38 120,46 T240,40 Q300,44 360,36 T480,42 Q540,38 600,44 T720,36 Q780,42 840,38 T960,44 Q1020,38 1080,44 T1200,38 Q1260,44 1320,40 T1440,46 L1440,80 Z" fill="#FAF8F5"></path>
+      <path d="M0,80 L0,42 Q120,28 240,38 T480,32 Q600,38 720,28 T960,36 Q1080,28 1200,36 T1440,30 L1440,80 Z" fill="#FAF8F5"></path>
     </svg>
   </div>
 </section>
